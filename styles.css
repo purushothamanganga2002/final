@@ -1,0 +1,126 @@
+html, body	{
+	margin: 0;
+	padding: 0;
+	background-color: #343a40;
+}
+
+
+.header	{
+	position: fixed;
+	width: 100vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #343a40;
+	color: white;
+	z-index: 100;
+	font-family: 'Itim', cursive;
+}
+
+.brand-logo {
+	display: flex;
+	align-items: center;
+}
+
+.brand-logo img {
+	margin: 10px;
+}
+
+nav ul	{
+	padding: 0;
+	margin: 10px;
+	list-style: none;
+	display: flex;
+	float: right;
+	flex-wrap: wrap;
+
+}
+
+header	{
+	flex: 1;
+	font-size: 20px;
+	margin: 10px;
+	flex-wrap: nowrap;
+}
+
+nav	{
+	flex: 1;
+	margin: 10px;
+}
+
+a 	{
+	text-decoration: none;
+	color: rgba(255,255,255,.5);
+	margin: 0 10px;
+}
+
+header a {
+	color: white;
+}
+a:hover	{
+	text-decoration: none;
+	color: white;
+}
+.home	{
+	display: flex;
+	height: 100vh;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #dddddd;
+	flex-wrap: wrap;
+}
+
+.home h2	{
+	display: flex;
+	text-align: center;
+	margin: 20px;
+	font-size: 2rem;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.home-button	{
+
+}
+
+.home img {
+	height: 70vh;
+	width:  auto;
+}
+
+.projects-carousel {
+	width: 70vw;
+	margin:  30px auto;
+}
+
+.projects 	{
+	background-color: #343a40;
+}
+
+.contact	{
+	width: auto;
+	height: 80vh;
+	background-color: #dddddd;
+	position: relative;
+}
+
+.card {
+	position: absolute;
+	padding: 10px;
+	padding-right: 100px;
+	top: 10px;
+	right: 10px;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.card h2 {
+	text-align: left;
+	padding: 0;
+	margin:  0 !important;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.card h4 {
+		font-family: 'Ubuntu', sans-serif;
+}
